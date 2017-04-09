@@ -1,0 +1,19 @@
+version: "3.1"
+
+services:
+  db:
+    image: mysql:latest
+    container_name: phonebook-db
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=phonebook
+    volumes:
+      - /var/mysql:/var/lib/mysql
+  api:
+    image: phonebook-api
+    container_name: phonebook-api
+    environment:
+      - SPRING_PROFILE_ACTIVE=docker
+    ports:
+      - 80:8080
