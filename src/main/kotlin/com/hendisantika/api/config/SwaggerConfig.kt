@@ -1,4 +1,4 @@
-package com.ukdw.api.config
+package com.hendisantika.api.config
 
 import com.google.common.base.Predicate
 import com.google.common.base.Predicates

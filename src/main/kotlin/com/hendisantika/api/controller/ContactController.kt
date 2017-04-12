@@ -1,7 +1,7 @@
-package com.ukdw.api.controller
+package com.hendisantika.api.controller
 
 import com.ukdw.api.model.Contact
-import com.ukdw.api.services.ContactService
+import com.hendisantika.api.services.ContactService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 

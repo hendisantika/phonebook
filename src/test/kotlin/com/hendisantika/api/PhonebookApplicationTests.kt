@@ -1,4 +1,4 @@
-package com.ukdw.api
+package com.hendisantika.api
 
 import org.junit.Test
 import org.junit.runner.RunWith
