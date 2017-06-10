@@ -1,7 +1,7 @@
 package com.hendisantika.api.services
 
-import com.ukdw.api.model.Contact
-import com.ukdw.api.repository.ContactRepository
+import com.hendisantika.api.model.Contact
+import com.hendisantika.api.repository.ContactRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
