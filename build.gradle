@@ -7,8 +7,8 @@ apply plugin: 'java'
 
 buildscript {
     ext {
-        kotlinVersion = '1.1.1'
-        springBootVersion = '1.5.2.RELEASE'
+        kotlinVersion = '1.1.2'
+        springBootVersion = '1.5.4.RELEASE'
         mysqlVersion = '5.1.41'
         hikariCPVersion = '2.6.1'
         swaggerVersion = '2.6.1'
